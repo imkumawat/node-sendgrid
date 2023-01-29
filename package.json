@@ -1,0 +1,26 @@
+{
+  "name": "sendgrid",
+  "version": "1.0.0",
+  "description": "sending transactoinal emails using sendgrid email service",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imkumawat/node-sendgrid.git"
+  },
+  "keywords": [
+    "sendgrid",
+    "transaction-email"
+  ],
+  "author": "Manoj Kumawat",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/imkumawat/node-sendgrid/issues"
+  },
+  "homepage": "https://github.com/imkumawat/node-sendgrid#readme",
+  "dependencies": {
+    "@sendgrid/mail": "^7.7.0"
+  }
+}
